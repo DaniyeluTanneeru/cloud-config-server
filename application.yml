@@ -14,10 +14,13 @@ microservice:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/dopatment
   
-  order-service:
+  
+order-service:
     endpoints:
       endpoint:
-        uri: http://ORDER-SERVICE/order/bookOrder    
+        uri: http://ORDER-SERVICE/order/bookOrder      
+  
+  
     
     
     
